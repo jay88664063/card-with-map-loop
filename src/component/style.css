@@ -1,0 +1,27 @@
+.col-4 .card {
+    border-radius: 70px;
+    background-color: #e7c6ff;
+    text-align: justify;
+    box-shadow: -0px -5px 15px 10px rgb(189, 176, 202);
+    color: #023e8a;
+}
+
+.card h3 {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #6f2dbd;
+}
+
+
+.card img {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.col-4 .card:hover {
+    border-radius: 20px;
+    transition: all 1s ease-in-out;
+}
